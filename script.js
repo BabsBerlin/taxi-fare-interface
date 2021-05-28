@@ -1,7 +1,12 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-const taxiFareApiUrl = 'http://localhost:8000/predict';
+//const taxiFareApiUrl = 'http://localhost:8000/predict';
+const taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+
+const algoliaPlacesApiAppId = 'BORUKP7RLMD';
+const algoliaPlacesApiKey = '4bf5e79614ad5d12f18c7d4a7d96d68f';
+const mapboxApiToken = 'pk.eyJ1IjoiYmFic2JlcmxpbiIsImEiOiJja3A4M3R5ZmkwNmZvMnZubGV0eHF0N3NsIn0.WFEh3t-c2RCSHCQ6wGrMAQ';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
